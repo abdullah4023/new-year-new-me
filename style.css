@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* -------- Banner Part ---------- */
+
+
+.header-content {
+  position: relative;
+}
+
+.header-content__img {
+  width: 100%;
+  position: relative;
+}
+
+.header-content__div {
+  position: absolute;
+  top: 216px;
+  left: 999px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.header-content__title {
+  text-transform: capitalize;
+  font-size: 65px;
+  text-align: right;
+  width: 525px;
+}
+.header-content__details {
+  margin: 11px 0 45px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 494px;
+  text-align: right;
+  color: #444343;
+}
+
+.header-content__button {
+  background: #f15b22;
+  border: 0;
+  padding: 21px 25px;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  color: #ffffff;
+}
+
+
+
+/* This section is added by me , there are three quotes with authors , added left-border on hover effect */
+
+
+
+.motivation{
+  width: 1140px;
+  height: 300px; 
+  margin:50px auto ;
+}
+
+.motivation__quote:hover{
+  border-left: 5px solid #939B62;
+  width: 1135px;
+}
+
+
+.motivation__quote--text{
+  font-size: 18px;
+  text-align: center;
+  font-weight: 900;
+  color: #da6e09;
+}
+.motivation__quote--author{
+  font-size: 20px;
+  text-align: center;
+  color: #d34216;
+  font-weight: 1000;
+  margin-bottom: 15px;
+   
+}
+
+
+
+
+/* -------- This section is about my failure ---------- */
+
+
+
+.failure-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 94px;
+}
+
+.failure-section__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  width: 288px;
+}
+
+.failure-section__details {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  width: 416px;
+  margin: 24px 0 16px 0;
+  
+}
+
+.failure-section__list {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  width: 416px;
+}
+
+.failure-section__list--item {
+  list-style: none;
+}
+
+.failure-section__list--item::before {
+  content: "🗸 ";
+  color: rgb(21, 219, 21);
+  font-weight: 900;
+  font-size: 17px;
+}
+
+
+
+
+/* -------- my plan section  ---------- */
+
+
+
+.my-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-plan__title {
+  font-size: 40px;
+  color: #151414;
+  margin-top: 91px;
+  margin-bottom: 60px;
+}
+
+.my-plan__div {
+  display: flex;
+  gap: 10px;
+}
+
+.my-plan__div--child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+}
+
+.my-plan__div--child__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin: 20px 0 16px 0;
+}
+
+.my-plan__div--child__details {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #737272;
+}
+
+
+
+
+/* -------- Advertisement part ---------- */
+
+.advert {
+  padding: 59px 0 0 64px;
+  width: 1140px;
+  height: 300px;
+  margin: 130px auto;
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url(./Images/watch.png);
+  border-radius: 8px;
+}
+
+.advert__text {
+  width: 459px;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+}
+
+.advert__button {
+  margin-top: 24px;
+  width: 160px;
+  height: 64px;
+  background: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #f15b22;
+  cursor: pointer;
+}
+
+
+
+
+
+/* -------- footer section ---------- */
+
+
+
+footer{  
+  display: flex;
+  height: 577px;
+ width: 100%;
+ background: #151414;
+ justify-content:space-around;
+ align-items: center;
+}
+
+
+.contact-details__title{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #F8F8F8;
+  margin-bottom:16px ;
+}
+
+.contact-details__text{
+  width: 485px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.contact-details__text:nth-child(3){
+   margin: 24px 0 16px 0;
+}
+
+.contact-details__icon-div{
+display: flex;
+gap:17px ;
+margin-top: 32px;
+}
+
+
+.subscribe{
+display: flex;
+flex-direction: column;
+}
+
+.subscribe p{
+  
+color: #FFFFFF;
+font-weight: 600;
+font-size: 25px;
+margin-bottom: 31px;
+}
+.subscribe__email-input{
+
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  width: 325px;
+height: 64px;
+background-color: transparent;
+padding: 21px;
+margin-bottom: 16px;
+
+}
+
+.subscribe__email-input::placeholder{
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #F3F3F3;
+}
+
+
+.subscribe__button{
+  font-weight: 600;
+  font-size: 20px;
+  width: 170.11px;
+  height: 64px;
+  color: #F15B22;
+  background: #FFFFFF;
+border-radius: 8px;
+}
